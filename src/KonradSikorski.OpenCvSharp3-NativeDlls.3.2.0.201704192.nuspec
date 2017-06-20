@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>KonradSikorski.OpenCvSharp3-NativeDlls</id>
+        <version>3.2.0.201704192</version>
+        <authors>Konrad Sikorski</authors>
+        <licenseUrl>http://opensource.org/licenses/MS-PL</licenseUrl>
+        <projectUrl>https://github.com/shimat/opencvsharp</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Native Dlls for nuget package OpenCvSharp3-WithoutDll</description>
+        <tags>OpenCV OpenCVSharp Wrapper</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework2.0" />
+            <group targetFramework=".NETFramework4.0" />
+            <group targetFramework=".NETFramework4.6" />
+            <group targetFramework=".NETStandard1.6">
+                <dependency id="NETStandard.Library" version="1.6.1" />
+            </group>
+            <group targetFramework=".NETCoreApp1.0">
+                <dependency id="NETStandard.Library" version="1.6.1" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="build\KonradSikorski.OpenCvSharp3-NativeDlls.props" target="build\KonradSikorski.OpenCvSharp3-NativeDlls.props" />
+        <file src="..\..\..\..\Users\KonradSikorski\Desktop\OpenCvSharp3-NativeDlls\NativeDlls\x64\OpenCvSharpExtern.dll" target="NativeDlls\x64\OpenCvSharpExtern.dll" />
+        <file src="..\..\..\..\Users\KonradSikorski\Desktop\OpenCvSharp3-NativeDlls\NativeDlls\x64\opencv_ffmpeg320_64.dll" target="NativeDlls\x64\opencv_ffmpeg320_64.dll" />
+        <file src="..\..\..\..\Users\KonradSikorski\Desktop\OpenCvSharp3-NativeDlls\NativeDlls\x86\OpenCvSharpExtern.dll" target="NativeDlls\x86\OpenCvSharpExtern.dll" />
+        <file src="..\..\..\..\Users\KonradSikorski\Desktop\OpenCvSharp3-NativeDlls\NativeDlls\x86\opencv_ffmpeg320.dll" target="NativeDlls\x86\opencv_ffmpeg320.dll" />
+    </files>
+</package>
